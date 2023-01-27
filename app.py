@@ -35,7 +35,7 @@ def continue8ball():
             clear()
             exit()
 
-    whitetext('Ok, ask me another yes or no question!')
+    whitetext('\nOk, ask me another yes or no question!')
     input()
     magic8ball()
 
