@@ -20,7 +20,7 @@ def clear():
 
 def magic8ball():
     time.sleep(random.randint(1, 2))
-    greentext(f'\n{ANSWERS[ANSWERS_LENGTH]}')
+    greentext(f'\n{ANSWERS[random.randint(0, ANSWERS_LENGTH)]}')
 
 
 def continue8ball():
